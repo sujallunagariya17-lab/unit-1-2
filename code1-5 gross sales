@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+    float n,g,d;
+    printf("the gross sales  is  :- ");
+    scanf("%f",&g);
+    if(g>20000)
+    {
+
+     printf("\nthe discount is  :-  %f",d=g*15/100);
+
+     printf("\nthe net sales is  :- %f",n=g-d);
+    }
+    else
+    if(g>10000)
+    {
+
+    printf("\nthe discount is  :- %f",d=g/10);
+
+     printf("\nthe net sales is  :- %f",n=g-d);
+    }
+    else
+    {
+
+        printf("\nthe discount is  :- %f",d=g*5/100);
+
+     printf("\nthe net sales is  :- %f",n=g-d);
+    }
+
+    return 0;
+
+}
