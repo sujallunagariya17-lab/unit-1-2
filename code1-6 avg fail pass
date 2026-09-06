@@ -1,0 +1,42 @@
+#include<stdio.h>
+int main()
+{
+    float a, m,c,p,t;
+    printf("the marks obtain in maths is :- ");
+    scanf("%f",&m);
+    printf("\n\nthe marks obtain in computer is :- ");
+    scanf("%f",&c);
+    printf("\n\n the marks obtain in physics is :- ");
+    scanf("%f",&p);
+     printf("\n\nthe total of three subjects is :-%f",t=m+c+p);
+
+  printf("\n\nthe average three subjects is:- %f",a=(m+c+p)/3);
+
+  if(m<35||c<35||p<35)
+  {
+      printf("\n\n student fails");
+
+  }
+  else
+    if(t>=70)
+  {
+    printf("\n\n student scores distiction grade");
+  }
+   else
+    if(t>=60)
+  {
+    printf("\n\n student scores first grade");
+  }
+  else
+    if(t>=50)
+  {
+    printf("\n\n student scores second grade");
+  }
+  else
+    if (t>=35)
+  {
+    printf("\n\n student scores third grade");
+  }
+    return 0;
+
+}
