@@ -1,0 +1,58 @@
+#include<stdio.h>
+int main()
+
+{
+    int a,b,c;
+printf("\nenter value of  number-:");
+scanf("%d",&a);
+printf("\nenter value of  number-:");
+scanf("%d",&b);
+printf("\nenter value of  number-:");
+scanf("%d",&c);
+if (a>b&&a>c)
+    {
+            printf("\nthe largest value is-:%d",a );
+
+    }
+else
+    if(b>a&&b>c)
+{
+
+
+
+            printf("\nthe largest value is-:%d",b );
+
+
+}
+else
+                if(c>a&&c>b)
+{
+
+
+
+            printf("\nthe largest value is-:%d",c );
+
+
+}
+if (a<b&&a<c)
+{
+    printf("\nthe smallest value is-:%d",a );
+
+    }
+    else
+        if (b<a&&b<c)
+{
+    printf("\nthe smallest value is-:%d",b );
+
+    }
+    else
+        if (c<a&&c<b)
+{
+    printf("\nthe smallest value is-:%d",c );
+
+    }
+
+
+
+}
+
