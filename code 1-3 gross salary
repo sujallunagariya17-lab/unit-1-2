@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    float n,g,a,d;
+
+    printf("the gross salary  is  :- ");
+    scanf("%f",&g);
+    if(g>10000)
+    {
+    printf("\nthe allowance is  :- %f",a=g/10);
+    printf("\n the deduction is :- %f ",d=g*3/100);
+
+     printf("\nthe net salary is  :-%f",n=g+a-d);
+     }
+     else
+        if (g>5000)
+     {
+         printf("\nthe allowance is  :- %f",a=(g*7)/100);
+    printf("\n the deduction is :- %f ",d=(g*2)/100);
+
+     printf("\nthe net salary is  :-%f",n=g+a-d);
+     }
+    return 0;
+
+}
